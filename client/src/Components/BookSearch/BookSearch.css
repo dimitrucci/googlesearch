@@ -1,0 +1,21 @@
+.book-search{
+    margin:  40px 20px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  .book-search input{
+      width: 100%;
+      border: 1px solid black;
+  }
+  .book-search .button-container{
+      margin: 10px;
+      display: flex;
+      justify-content: flex-end;
+  }
+  .book-search button{
+      background-color: transparent;
+      border: 1px solid black;
+      cursor: pointer;
+      box-shadow: 2px 2px 2px black;
+      font-size: 16px;
+  }

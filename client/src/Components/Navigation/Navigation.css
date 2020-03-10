@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: whitesmoke;
+  border: 1px solid black;
+}
+.link-item{
+  text-decoration: none;
+  color: black;
+  margin: 0 20px;
+  font-size: 20px;
+}
+.link-item :hover{
+  opacity: 0.8;
+}
+.link-item p{
+  color: black;
+  cursor: pointer;
+}

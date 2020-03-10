@@ -1,0 +1,37 @@
+.book-item-search-results{
+        margin:  0px 5px;
+        border: 1px solid black;
+        padding: 10px;
+}
+
+.book-item-search-results .top-infos {
+    display: flex;
+    justify-content: space-between;
+}
+.book-item-search-results .top-infos .title-author p, h5{
+    margin: 0 10px;
+}
+.book-item-search-results .top-infos .buttons button{
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px black;
+    font-size: 16px;
+}
+
+.book-item-search-results .bottom-infos {
+    display: flex;
+    margin : 20px 10px;
+    flex-shrink: 0;
+}
+.book-item-search-results .bottom-infos img {
+height: auto;
+width:  120px;
+flex-shrink: 0;
+}
+
+.book-item-search-results .bottom-infos p {
+    margin: 0;
+    margin-left: 10px;
+    text-align: justify;
+}

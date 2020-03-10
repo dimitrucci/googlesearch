@@ -1,0 +1,7 @@
+.App button{
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px black;
+  font-size: 16px;
+}
